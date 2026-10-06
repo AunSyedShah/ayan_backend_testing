@@ -1,0 +1,14 @@
+{
+  "name": "ayan_backend_testing",
+  "module": "server.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
