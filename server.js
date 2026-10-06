@@ -2,12 +2,10 @@ import express from "express";
 
 const app = express();
 
-app.get("/", (req, res) => {
-    return res.json(
-        {
-            message:"ok"
-        }
-    )
+let friends = ["ayyan", "khyber", "abdul rafay"]
+
+app.get("/friends", (req, res) => {
+    return res.json(friends);
 })
 
 app.listen(process.env.PORT || 3000, () => {
